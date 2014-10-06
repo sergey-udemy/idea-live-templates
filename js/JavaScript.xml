@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="JavaScript">
+  <template name="reqd" value="define([$DEPENS$], function ($PARAM$) {&#10;        &quot;use strict&quot;;&#10;        $END$&#10;      }&#10;);" description="require define" toReformat="false" toShortenFQNames="true">
+    <variable name="DEPENS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
+
